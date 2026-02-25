@@ -11,12 +11,14 @@ Users tap images to progress through different stages of making lemonade.
 ## 📱 Preview
 
 
+
 <p align="center">
 
-![alt text](<Screenshot 2026-02-25 213335.png  >)
+  <img src="Screenshot%202026-02-25%20213335.png" width="250" height="450"/>
+  <img src="Screenshot%202026-02-25%20213357.png" width="250" height="450"/>
 
-![alt text](<Screenshot 2026-02-25 213357.png>)
 </p>
+
 
 
 ## 🚀 Features
