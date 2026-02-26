@@ -35,7 +35,9 @@ $$Total\ Per\ Person = \frac{Bill + (Bill \times \frac{Tip\ Percent}{100})}{Spli
 
 ## 📸 Preview
 
-![alt text](image.png)
+<img src="image.png" width="250" height="450"/>
+
+
 ---
 
 ## 🏗️ Getting Started
