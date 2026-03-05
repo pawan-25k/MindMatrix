@@ -36,12 +36,12 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun TipCalculatorApp() {
-    // --- STATE ---
+
     var billAmount by remember { mutableStateOf("") }
     var tipPercent by remember { mutableFloatStateOf(15f) }
     var splitBy by remember { mutableIntStateOf(1) }
 
-    // --- LOGIC ---
+
     val bill = billAmount.toDoubleOrNull() ?: 0.0
     val totalTip = bill * (tipPercent / 100)
     val grandTotal = bill + totalTip
@@ -65,8 +65,6 @@ fun TipCalculatorApp() {
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        // --- RESULT CARD ---
-        // This card highlights the most important info: what each person owes.
         Surface(
             modifier = Modifier.fillMaxWidth(),
             color = MaterialTheme.colorScheme.primaryContainer,
